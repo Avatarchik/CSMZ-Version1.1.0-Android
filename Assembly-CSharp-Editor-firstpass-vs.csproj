@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{D5199E31-17E2-6236-0A75-72B1A7842C50}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_2;UNITY_4_5;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;DEBUG_ONdisableLocationApi;disableVibrateApi;disableGoogleCloud;ENABLE_DUCK_TYPING</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\DragRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerDownDetectorInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerEventDetectorInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerGesturesEditorUtils.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerGesturesInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerHoverDetectorInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerMotionDetectorInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerUpDetectorInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\GestureRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\LongPressRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\PinchRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\PointCloudGestureEditor.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\PointCloudGestureTemplateInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\PointCloudRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\SwipeRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\TapRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\TwistRecognizerInspector.cs" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Lightmapped\2TextureBlending-VertexColor-Intensity.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\GUI\TextGlow.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\Plugins\Android\res\values-fi\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\attrs.xml" />
+     <None Include="Assets\Plugins\Android\assets\ddo\ConsumerInfos.xml" />
+     <None Include="Assets\Fonts\multiplier_font_01.fnt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Plugins\Android\res\drawable\common_signin_btn_icon_dark.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_activity_circle_row.xml" />
+     <None Include="Assets\Plugins\Android\res\values-fa\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-hu\strings.xml" />
+     <None Include="Assets\_Maleficent\Shaders\Matcap\MatcapDiffuse.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Effects\Blink.shader" />
+     <None Include="Assets\Photon Unity Networking\PlayMaker\ReleaseNotes.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Plugins\Android\res\layout\timeline.xml" />
+     <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+     <None Include="Assets\Plugins\Android\res\values-pt\strings.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Opaque\Waves.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Particles\Additive-Culled-Overlay.shader" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\02\horizontal\sucresultdialog.xml" />
+     <None Include="Assets\Plugins\Android\res\values-tr\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values\dimens.xml" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+     <None Include="Assets\Plugins\Android\res\values-lt\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\common_signin_btn_icon_light.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\Plugins\Kochava\_LICENSE.txt" />
+     <None Include="Assets\_Maleficent\Shaders\HalfLambert.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\GUI\Fill-Transparent-Alpha.shader" />
+     <None Include="Assets\Plugins\Android\res\drawable\common_signin_btn_text_light.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-iw\strings.xml" />
+     <None Include="Assets\Plugins\Android\assets\ddo\channel.xml" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\Unlit-2-Layers-Sine-AlphaBlended-Param.shader" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\01\vertical\sucresultdialog.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_top_button.xml" />
+     <None Include="Assets\_Maleficent\Shaders\BlackAndWhite.shader" />
+     <None Include="Assets\Plugins\Android\res\values-ru\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_search_box.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\UnlitTransparentAlpha.shader" />
+     <None Include="Assets\PlayMaker\Readme.txt" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Mask\DepthMask.shader" />
+     <None Include="Assets\Plugins\Android\res\values-am\strings.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Matcap\MatcapDiffuseBumped.shader" />
+     <None Include="Assets\Plugins\Kochava\_README.txt" />
+     <None Include="Assets\_Maleficent\Shaders\Matcap\MatcapDiffuseLightProbes.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
+     <None Include="Assets\Plugins\Android\res\values-th\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\UnlitTransparentCullOff.shader" />
+     <None Include="Assets\Plugins\Android\res\values\colors.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\02\vertical\purchasedialog.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Plugins\Android\res\values-in\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-ldpi\dimens.xml" />
+     <None Include="Assets\Plugins\Android\res\values-nl\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\menu\activity_main.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\colors.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_friendpickerfragment.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\03\horizontal\progressdialog.xml" />
+     <None Include="Assets\_Maleficent\Shaders\Shine.shader" />
+     <None Include="Assets\Plugins\Android\facebook\bin\proguard.txt" />
+     <None Include="Assets\Plugins\Android\res\values-fr\strings.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Debug\Debug UV Channel 2.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\ParamAlphaMask2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Plugins\FingerGestures\Readme.txt" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\03\horizontal\sucresultdialog.xml" />
+     <None Include="Assets\HOTween\readme.txt" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\01\horizontal\progressdialog.xml" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\UnlitTransparentDiffuse.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Debug\Debug UV Channel 1.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+     <None Include="Assets\Plugins\Android\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\res\values\version.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Plugins\AmazonIAPNotice.txt" />
+     <None Include="Assets\Plugins\InAppBillingAndroid\Manifest.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\03\vertical\progressdialog.xml" />
+     <None Include="Assets\Plugins\Android\res\values-sv\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\egame_fee_two_confirm_layout.xml" />
+     <None Include="Assets\Plugins\Android\res\values-da\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-hi\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_button.xml" />
+     <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\PulseEngine\Shaders\MADFINGER\MADFINGER-Unlit-Scroll2Layers-Sine-AlphaBlend.shader" />
+     <None Include="Assets\Plugins\Android\res\values-en\ssdk_strings.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Debug\Debug Tangents.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Plugins\Android\res\values-af\strings.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\splash\horizontal\splashdialog.xml" />
+     <None Include="Assets\Plugins\Android\res\values-pl\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\common_signin_btn_text_dark.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MADFINGER\MADFINGER-Lightmap-Unlit-VirtualVertexGlossy-Add.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Plugins\AMPS\LibsIOS\README.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_usersettingsfragment.xml" />
+     <None Include="Assets\Plugins\Android\res\values-en\oks_strings.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_checkbox.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MADFINGER\MADFINGER-god-rays.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\UnlitTransparentOverlay.shader" />
+     <None Include="Assets\Plugins\AmazonIAPLicense.txt" />
+     <None Include="Assets\Fonts\menu_font_05.fnt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Plugins\Android\res\drawable-xhdpi\ssdk_oks_shake_to_share_back.xml" />
+     <None Include="Assets\Burstly\BurstlySDK_iOS\Constants.README.txt" />
+     <None Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\library\Photon3Unity3D.xml" />
+     <None Include="Assets\Plugins\Android\facebook\bin\R.txt" />
+     <None Include="Assets\Plugins\Android\assets\ddo\ConsumerCodes.xml" />
+     <None Include="Assets\Localization\Resources\Languages\IT_Sheet1.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\UnlitTransparentAlphaZWrite.shader" />
+     <None Include="Assets\Plugins\iOS\Burstly_DISNEY__IOSSSL.txt" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\ParamAlphaMask2_1.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Matcap\MatcapDiffuseBumpedSpecularFastLightProbes.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\ParamAlphaMask.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\SimpleVertexColor.shader" />
+     <None Include="Assets\Plugins\Android\res\values-pt-rPT\strings.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\03\vertical\purchasedialog.xml" />
+     <None Include="Assets\Holoville\HOUnityEditor\Editor\HOEditorGUIFramework.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar_stub.xml" />
+     <None Include="Assets\Burstly\BurstlySDK_iOS\Burstly_DISNEY_IOS_SSL_SDK.txt" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\02\vertical\failresultdialog.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\GUI\Fill-Transparent.shader" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\03\vertical\failresultdialog.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\ColoredAlphaMask.shader" />
+     <None Include="Assets\Fonts\menu_font_01.fnt" />
+     <None Include="Assets\Plugins\Android\res\values\maps_attrs.xml" />
+     <None Include="Assets\JCloudPlugin\README.txt" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Opaque\VertexColor.shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\01\horizontal\savingdialog.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\SimpleVertexColorBatching.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Effects\LineRenderer-TransparentEnd.shader" />
+     <None Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\library\release_history.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_item_background.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_image.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\Plugins\Android\res\values-ro\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-ja\strings.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
+     <None Include="Assets\_Maleficent\Scripts\Shaders\Additive_2.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Painting\Brush-Transparent.shader" />
+     <None Include="Assets\PlayMaker ArrayMaker\readme.txt" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\Mobile Transparent Vertex Color ZWriteOn.shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_background.xml" />
+     <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\Plugins\Android\res\values-uk\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-sk\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-hdpi\dimens.xml" />
+     <None Include="Assets\Localization\Resources\Languages\KO_Sheet1.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Particles\Additive.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\UnlitTransparentAlphaTint.shader" />
+     <None Include="Assets\Plugins\Android\facebook\build.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Effects\Glass-Stained-BumpDistortAlpha.shader" />
+     <None Include="Assets\Plugins\AMPS\LibsAndroid\README.txt" />
+     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\Additive.shader" />
+     <None Include="Assets\Plugins\Android\res\values-zh-rCN\strings.xml" />
+     <None Include="Assets\_Maleficent\Scripts\Shaders\Additive_1.shader" />
+     <None Include="Assets\Plugins\Android\res\values-iw\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\egame_fee_btn_selector.xml" />
+     <None Include="Assets\_Maleficent\Shaders\Matcap\MatcapDiffuseBumpedLightProbes.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Lightmapped\SpecularBumped.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Opaque\SingleTexture-CullOff.shader" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\01\vertical\purchasedialog.xml" />
+     <None Include="Assets\Plugins\Android\res\values-de\strings.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\02\vertical\progressdialog.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\UnlitCutoutCullOff.shader" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\02\horizontal\savingdialog.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\VertexColor.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+     <None Include="Assets\_Maleficent\Shaders\FlorinCharacterShader.shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_blue.xml" />
+     <None Include="Assets\_Maleficent\Shaders\Matcap\MatcapDiffuseBumpedSpecularLightProbes.shader" />
+     <None Include="Assets\Plugins\Android\res\values-sl\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-tl\strings.xml" />
+     <None Include="Assets\Localization\Resources\Languages\FR_Sheet1.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\egame_fee_btn_close_selector.xml" />
+     <None Include="Assets\Fonts\menu_font_03.fnt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest_backup.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Plugins\Android\res\values-zu\strings.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\splash\vertical\splashdialog.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Debug\Debug Binormals.shader" />
+     <None Include="Assets\Plugins\iOS\Burstly_DISNEY_IOS_SSL_SDK.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Plugins\Android\res\values-it\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values\ssdk_strings.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Plugins\Android\res\values\oks_strings.xml" />
+     <None Include="Assets\Localization\README.txt" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\AlphaMaskWithDetail.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\GUI\RadialFeather.shader" />
+     <None Include="Assets\Plugins\Android\res\values-es\strings.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\Fonts\menu_font_02.fnt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Effects\Glitch.shader" />
+     <None Include="Assets\Plugins\Android\res\values-sw\strings.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\UnlitTransparentTexturedAlpha.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\SimpleVertexColorCubemap.shader" />
+     <None Include="Assets\Plugins\Android\res\values-cs\strings.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector.xml" />
+     <None Include="Assets\_Maleficent\Shaders\BlackAndWhiteTRN2.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\VertexColor-AlphaTest.shader" />
+     <None Include="Assets\Plugins\Android\res\values-bg\strings.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\03\horizontal\savingdialog.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\Plugins\Android\res\values-et-rEE\strings.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Effects\Blur.shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_search_bar_layout.xml" />
+     <None Include="Assets\Plugins\Android\facebook\bin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\res\values-el\strings.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Plugins\Android\res\values-es-rUS\strings.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
+     <None Include="Assets\Plugins\Android\res\values-en-rGB\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\close_selector.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\NGUI\ReadMe - 2.6.3.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\01\horizontal\sucresultdialog.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Debug\Debug Normals.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Plugins\Android\res\values-lv\strings.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored Overlay.shader" />
+     <None Include="Assets\Plugins\Android\res\values-ko\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_login_activity_layout.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Lit\Mobile Rim Lit.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Localization\Resources\Languages\JA_Sheet1.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Painting\Brush-Hulk.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\UnlitTransparentAlphaCullOff.shader" />
+     <None Include="Assets\Localization\Resources\Languages\ZH_Sheet1.xml" />
+     <None Include="Assets\ResourcesFrozen\Generic\Ice.shader" />
+     <None Include="Assets\NGUI\Examples\Other\English.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\NGUI\Examples\Other\French.txt" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\02\vertical\savingdialog.xml" />
+     <None Include="Assets\Holoville\readme.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Localization\Resources\Languages\DE_Sheet1.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\02\horizontal\purchasedialog.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-mdpi\dimens.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Plugins\iOS\Constants.README.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Plugins\Android\res\layout\customnativedialog.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_list_section_header.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\01\vertical\failresultdialog.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar.xml" />
+     <None Include="Assets\Localization\Resources\Languages\RU_Sheet1.xml" />
+     <None Include="Assets\Plugins\Android\res\values-hr\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_usersettingsfragment_background_gradient.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\TexturedAlphaMask.shader" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\02\horizontal\progressdialog.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Painting\Brush.shader" />
+     <None Include="Assets\Plugins\Android\_KOCHAVA_SAMPLE_AndroidManifest.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\SimpleVertexColorOverlay.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Particles\Snow.shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_placepickerfragment.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Lightmapped\Specular.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\ColoredDetailAlphaMask.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Lightmapped\SingleTexture.shader" />
+     <None Include="Assets\Plugins\Android\res\values-et\strings.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\AmazonIAPAndroid\Manifest.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Plugins\Android\res\values-sr\strings.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Opaque\Mobile Rim Unlit.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\01\horizontal\failresultdialog.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\03\horizontal\failresultdialog.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_placepickerfragment_list_row.xml" />
+     <None Include="Assets\Burstly\BurstlySDK_iOS\Burstly_DISNEY__IOSSSL.txt" />
+     <None Include="Assets\Plugins\Android\res\layout\main.xml" />
+     <None Include="Assets\Fonts\menu_font_04.fnt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\03\vertical\sucresultdialog.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Lightmapped\2TextureBlending-VertexColor.shader" />
+     <None Include="Assets\Photon Unity Networking\readme.txt" />
+     <None Include="Assets\_Maleficent\Shaders\DiffuseSpecularMap.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Plugins\Android\res\values-large\dimens.xml" />
+     <None Include="Assets\Plugins\Android\res\values-zh-rTW\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\drawables.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Lit\Mobile Vertex Colored Specular.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\BottleShader.shader" />
+     <None Include="Assets\Plugins\Android\res\values-ms\strings.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\Mobile Transparent Vertex Color ZOffset.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Plugins\Android\res\values-vi\strings.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\_Maleficent\Shaders\HalfLambertTransparent.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Plugins\Android\facebook\proguard-project.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_loginbutton_silver.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\02\horizontal\failresultdialog.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\MobileTransparentVertexColorZWriteOnCullOff.shader" />
+     <None Include="Assets\Plugins\Android\res\values-nb\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector_background_transition.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Localization\Resources\Languages\PT_Sheet1.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\03\horizontal\purchasedialog.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Localization\Resources\Languages\ES_Sheet1.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Particles\Additive-Culled.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Effects\Glass-Stained-BumpDistort.shader" />
+     <None Include="Assets\Plugins\Android\res\values-ca\strings.xml" />
+     <None Include="Assets\Plugins\AmazonCommon\Source\MiniJSON\LICENSE.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest_backup_frozen.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\Plugins\Android\res\values-pt-rBR\strings.xml" />
+     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Debug\Debug VertexColor.shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-he\strings.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Localization\Resources\ZH_Sheet1.xml" />
+     <None Include="Assets\Plugins\Android\facebook\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\02\vertical\sucresultdialog.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Opaque\2TextureBlending.shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-es\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\egame_fee_one_confirm_layout.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+     <None Include="Assets\Localization\Resources\Languages\EN_Sheet1.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_check.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Effects\diamond shader.shader" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\01\vertical\savingdialog.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_list_row.xml" />
+     <None Include="Assets\Holoville\HOUnityEditor\Editor\HOEditorUtils.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+     <None Include="Assets\PlayMaker\Versions\readme.txt" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\01\horizontal\purchasedialog.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Transparent\SimpleAlphaMask.shader" />
+     <None Include="Assets\Plugins\Android\res\values-ar\strings.xml" />
+     <None Include="Assets\PulseEngine\Shaders\MobilityGames\Unlit\Effects\Pixelate-Transparent.shader" />
+     <None Include="Assets\Plugins\Android\res\values-ms-rMY\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\res\values-be\strings.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\03\vertical\savingdialog.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-xhdpi\dimens.xml" />
+     <None Include="Assets\Photon Unity Networking\changelog.txt" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\UnlitAlpha.shader" />
+     <None Include="Assets\Plugins\Android\assets\ddo\ddo_strings.xml" />
+     <None Include="Assets\Plugins\AmazonIAPPluginVersion.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\_Maleficent\Shaders\Unlit\Transparent\UnlitTransparentAlphaAdditive.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest_old.xml" />
+     <None Include="Assets\_Maleficent\Shaders\Blur.shader" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\01\vertical\progressdialog.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="AmazonMenuItem">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/Editor/Amazon/AmazonMenuItem.dll</HintPath>
+ </Reference>
+ <Reference Include="Prime31MenuItem">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/Editor/Prime31/Prime31MenuItem.dll</HintPath>
+ </Reference>
+ <Reference Include="IFacebook">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/Facebook/Scripts/IFacebook.dll</HintPath>
+ </Reference>
+ <Reference Include="HOEditorGUIFramework">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/Holoville/HOUnityEditor/Editor/HOEditorGUIFramework.dll</HintPath>
+ </Reference>
+ <Reference Include="HOEditorUtils">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/Holoville/HOUnityEditor/Editor/HOEditorUtils.dll</HintPath>
+ </Reference>
+ <Reference Include="HOTween">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/HOTween/Plugins/HOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="HOTweenV1_Editor">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/HOTween/Plugins/Editor/HOTweenV1_Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/Photon Unity Networking/Plugins/PhotonNetwork/library/Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMaker">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/PlayMaker/PlayMaker.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/PlayMaker/Editor/PlayMakerEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditorResources">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/PlayMaker/Editor/PlayMakerEditorResources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.de.resources">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/PlayMaker/Editor/de/PlayMakerEditor.de.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.es-ES.resources">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/PlayMaker/Editor/es-ES/PlayMakerEditor.es-ES.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.fr.resources">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/PlayMaker/Editor/fr/PlayMakerEditor.fr.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.it.resources">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/PlayMaker/Editor/it/PlayMakerEditor.it.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.ja.resources">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/PlayMaker/Editor/ja/PlayMakerEditor.ja.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.nl.resources">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/PlayMaker/Editor/nl/PlayMakerEditor.nl.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.pt-BR.resources">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/PlayMaker/Editor/pt-BR/PlayMakerEditor.pt-BR.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.sv-SE.resources">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/PlayMaker/Editor/sv-SE/PlayMakerEditor.sv-SE.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.zh-CN.resources">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/PlayMaker/Editor/zh-CN/PlayMakerEditor.zh-CN.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.zh-TW.resources">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/PlayMaker/Editor/zh-TW/PlayMakerEditor.zh-TW.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/Plugins/LitJson.dll</HintPath>
+ </Reference>
+ <Reference Include="P31RestKit">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/Plugins/P31RestKit.dll</HintPath>
+ </Reference>
+ <Reference Include="JsonFx.Json">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/Plugins/Kochava/Scripts/JsonFx.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>D:/BaiduYunDownload/CSMZ-Version1.1.0-Android/Assets/Plugins/Zip/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{10463BFB-8654-C307-3F52-BD82A2C3B232}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

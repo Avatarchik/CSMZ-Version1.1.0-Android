@@ -1,0 +1,22 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf400
+{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs24 \cf0 GIUA Library (Genera Interactive Urban Airship Library)\
+\
+Steps to integrate it\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0\cf0 {\listtext	\'95	}Unzip binding.zip and include the content inside unity project to have GIUAlibrary.cs inside Extensions/GIUAlibrary and GIUALibraryBinding.mm inside of Plugins/iOS\
+{\listtext	\'95	}Include .h and .m inside Xcode Project\
+{\listtext	\'95	}in app delegate\
+{\listtext	\'95	}- (BOOL)application:(UIApplication\'a0*)application didFinishLaunchingWithOptions:(NSDictionary\'a0*)launchOptions\uc0\u8232 \{\u8232 \'a0 \'a0\'a0// Override point for customization after application launch.\u8232 \'a0 \'a0\'a0\u8232 \'a0 \'a0\'a0[[GIUALibrary\'a0shared]\'a0setAppKey:APPKEY\'a0andAppSecret:APPSECRET];\u8232 \'a0 \'a0\'a0\u8232 \'a0 \'a0\'a0return\'a0YES;\u8232 \}\
+{\listtext	\'95	}And below that\
+{\listtext	\'95	}- (void)application:(UIApplication\'a0*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData\'a0*)deviceToken\uc0\u8232 \{\u8232 \'a0 \'a0\'a0[[GIUALibrary\'a0shared]\'a0registerTokenInUrbanAirship:deviceToken];\u8232 \}\u8232 \u8232 - (void)application:(UIApplication\'a0*)application didFailToRegisterForRemoteNotificationsWithError:(NSError\'a0*) error \{\u8232 \'a0 \'a0\'a0NSLog(@"Failed To Register For Remote Notifications With Error: %@", error);\u8232 \}\
+\pard\pardeftab720
+\cf0 \
+}

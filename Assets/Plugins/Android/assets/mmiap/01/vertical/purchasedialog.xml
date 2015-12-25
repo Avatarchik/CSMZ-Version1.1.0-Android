@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dialog
+    childContent="Layout"
+    content="PurchaseDialog"
+    height="wrap_content"
+    width="450" >
+
+    <Item
+        background="mmiap/01/bg.png"
+        content="PurchaseDialog"
+        height="wrap_content"
+        orientation="vertical"
+        paddingBottom="10"
+        paddingLeft="10"
+        paddingRight="10"
+        paddingTop="30"
+        stytle="LinearLayout"
+        width="wrap_content" >
+
+        <Item
+            content="ProductInfo"
+            height="wrap_content"
+            paddingLeft="20"
+            paddingRight="20"
+            stytle="TextView"
+            gravity="left"
+            text="立即获得"
+            textsize="18"
+            width="wrap_content" >
+
+            <Item
+                content="itemname"
+                stytle="TextViewChild"
+                text="超值大礼包" >
+            </Item>
+
+            <Item
+                content="itemcounttext"
+                stytle="TextViewChild"
+                text="x" >
+            </Item>
+
+            <Item
+                content="itemcount"
+                stytle="TextViewChild"
+                text="x1" >
+            </Item>
+
+            <Item
+                content="adtext"
+                stytle="TextViewChild"
+                text="。您值得拥有！" >
+            </Item>
+
+            <Item
+                content="adtext1"
+                stytle="TextViewChild"
+                text="该商品价值" >
+            </Item>
+
+            <Item
+                content="totalprice"
+                stytle="TextViewChild"
+                text="2元" >
+            </Item>
+
+            <Item
+                content="endText"
+                stytle="TextViewChild"
+                text="(不含通信费)，通过短信代收，是否确认购买？" >
+            </Item>
+        </Item>
+
+        <Item
+            content="MainView"
+            height="wrap_content"
+            orientation="horizontal"
+            paddingBottom="20"
+            paddingTop="20"
+            stytle="LinearLayout"
+            width="fill_parent" >
+
+            <Item
+                background="mmiap/01/btn_blue.9.png"
+                content="confirmButton"
+                height="70"
+                margingRight="10"
+                paddingBottom="10"
+                paddingTop="10"
+                pressedBG="mmiap/01/btn_blue_click.9.png"
+                stytle="Button"
+                text="确  认"
+                textsize="20"
+                weight="1"
+                width="wrap_content" >
+            </Item>
+
+            <Item
+                background="mmiap/01/btn_gray.9.png"
+                content="backbutton"
+                height="70"
+                margingLeft="10"
+                paddingBottom="10"
+                paddingTop="10"
+                pressedBG="mmiap/01/btn_gray_click.9.png"
+                stytle="Button"
+                text="取  消"
+                textsize="20"
+                weight="1"
+                width="wrap_content" >
+            </Item>
+        </Item>
+    </Item>
+
+</Dialog>

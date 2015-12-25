@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+  package="com.disney.maleficentchina.qizhi" 
+  android:theme="@android:style/Theme.NoTitleBar" 
+  android:versionName="1.0" android:versionCode="1" android:installLocation="preferExternal">
+  <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="15" />
+  <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" />
+  <application android:icon="@drawable/app_icon" android:label="@string/app_name" android:theme="@style/AppTheme">
+    <activity android:name="com.disney.maleficentchina.CustomUnityPlayerActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:label="@string/app_name" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity
+            android:name="com.zk.serverSdk.ServerMainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait" >
+           
+        </activity>
+     <meta-data android:name="EGAME_CHANNEL" android:value="41000237" />
+     <activity android:name="cn.egame.terminal.paysdk.EgamePayActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+    </activity>
+    <activity android:name="com.facebook.unity.FBUnityLoginActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+    </activity>
+    <activity android:name="com.facebook.LoginActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+    </activity>
+    <activity android:name="com.facebook.unity.FBUnityDeepLinkingActivity" android:exported="true">
+    </activity>
+    <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="\ 618744058196470" />
+     <meta-data android:name="wostore_billing_otherpay" android:value="false"/>
+	<meta-data android:name="wostore_billing_chinaunicom" android:value="true"/>
+	<meta-data android:name="QHOPENSDK_APPID" android:value="201680296"/>
+	<meta-data android:name="QHOPENSDK_APPKEY" android:value="eb58e172c40a2ad98cc384c4309af8ed"/>
+  </application>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+  <uses-permission android:name="android.permission.READ_SMS" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.SEND_SMS" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.GET_TASKS" />
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+  <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+  <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+  <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+  <meta-data android:name="wostore_billing_sms" android:value="true" />
+  <meta-data android:name="wostore_billing_otherpay" android:value="true" />
+  <meta-data android:name="wostore_billing_chinaunicom" android:value="true" />
+</manifest>

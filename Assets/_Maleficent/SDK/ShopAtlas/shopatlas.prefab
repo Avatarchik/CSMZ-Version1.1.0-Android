@@ -1,0 +1,471 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: shopatlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: f74cfb40ffc85f048a499c93ba692824, type: 2}
+  sprites:
+  - name: text_bg
+    outer:
+      serializedVersion: 2
+      x: 268
+      y: 596
+      width: 188
+      height: 175
+    inner:
+      serializedVersion: 2
+      x: 268
+      y: 596
+      width: 188
+      height: 175
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0114285713
+  - name: bg
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 984
+      width: 784
+      height: 1064
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 984
+      width: 784
+      height: 1064
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_bg
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 772
+      width: 654
+      height: 211
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 772
+      width: 654
+      height: 211
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tab_sel
+    outer:
+      serializedVersion: 2
+      x: 519
+      y: 485
+      width: 250
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 519
+      y: 485
+      width: 250
+      height: 110
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: close
+    outer:
+      serializedVersion: 2
+      x: 268
+      y: 8
+      width: 83
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 268
+      y: 8
+      width: 83
+      height: 76
+    rotated: 0
+    paddingLeft: .0120481923
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tab_unsel
+    outer:
+      serializedVersion: 2
+      x: 268
+      y: 485
+      width: 250
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 268
+      y: 485
+      width: 250
+      height: 110
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: '-'
+    outer:
+      serializedVersion: 2
+      x: 379
+      y: 196
+      width: 67
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 379
+      y: 196
+      width: 67
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: +
+    outer:
+      serializedVersion: 2
+      x: 379
+      y: 264
+      width: 67
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 379
+      y: 264
+      width: 67
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "\u5546\u57CE"
+    outer:
+      serializedVersion: 2
+      x: 268
+      y: 181
+      width: 87
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 268
+      y: 181
+      width: 87
+      height: 105
+    rotated: 0
+    paddingLeft: .425287366
+    paddingRight: .218390808
+    paddingTop: .22857143
+    paddingBottom: .0190476198
+  - name: +sign
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 5
+      width: 43
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 5
+      width: 43
+      height: 43
+    rotated: 0
+    paddingLeft: .0232558139
+    paddingRight: .0232558139
+    paddingTop: .0232558139
+    paddingBottom: .0232558139
+  - name: medium_gift
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 49
+      width: 241
+      height: 191
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 49
+      width: 241
+      height: 191
+    rotated: 0
+    paddingLeft: .078838177
+    paddingRight: .190871373
+    paddingTop: .0785340294
+    paddingBottom: .0261780098
+  - name: low_gift
+    outer:
+      serializedVersion: 2
+      x: 457
+      y: 624
+      width: 208
+      height: 147
+    inner:
+      serializedVersion: 2
+      x: 457
+      y: 624
+      width: 208
+      height: 147
+    rotated: 0
+    paddingLeft: .0432692319
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: good_gift
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 241
+      width: 255
+      height: 263
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 241
+      width: 255
+      height: 263
+    rotated: 0
+    paddingLeft: .258823544
+    paddingRight: .0862745121
+    paddingTop: 0
+    paddingBottom: .114068441
+  - name: box_tips
+    outer:
+      serializedVersion: 2
+      x: 379
+      y: 332
+      width: 81
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 379
+      y: 332
+      width: 81
+      height: 64
+    rotated: 0
+    paddingLeft: .0246913582
+    paddingRight: .0123456791
+    paddingTop: .015625
+    paddingBottom: .015625
+  - name: CDkey
+    outer:
+      serializedVersion: 2
+      x: 268
+      y: 85
+      width: 85
+      height: 95
+    inner:
+      serializedVersion: 2
+      x: 268
+      y: 85
+      width: 85
+      height: 95
+    rotated: 0
+    paddingLeft: .0941176489
+    paddingRight: .0705882385
+    paddingTop: .200000003
+    paddingBottom: .252631575
+  - name: WenZi
+    outer:
+      serializedVersion: 2
+      x: 549
+      y: 436
+      width: 183
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 549
+      y: 436
+      width: 183
+      height: 48
+    rotated: 0
+    paddingLeft: .0491803288
+    paddingRight: .0437158458
+    paddingTop: .166666672
+    paddingBottom: .0833333358
+  - name: sns_icon_1@2x
+    outer:
+      serializedVersion: 2
+      x: 655
+      y: 867
+      width: 116
+      height: 116
+    inner:
+      serializedVersion: 2
+      x: 655
+      y: 867
+      width: 116
+      height: 116
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wechat
+    outer:
+      serializedVersion: 2
+      x: 666
+      y: 659
+      width: 112
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 666
+      y: 659
+      width: 112
+      height: 112
+    rotated: 0
+    paddingLeft: .00892857183
+    paddingRight: .00892857183
+    paddingTop: .00892857183
+    paddingBottom: .00892857183
+  - name: cross_flag
+    outer:
+      serializedVersion: 2
+      x: 666
+      y: 608
+      width: 50
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 666
+      y: 608
+      width: 50
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gift_flag
+    outer:
+      serializedVersion: 2
+      x: 268
+      y: 287
+      width: 110
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 268
+      y: 287
+      width: 110
+      height: 109
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FirstCharge
+    outer:
+      serializedVersion: 2
+      x: 268
+      y: 397
+      width: 280
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 268
+      y: 397
+      width: 280
+      height: 87
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FirstChargeClsBtn
+    outer:
+      serializedVersion: 2
+      x: 655
+      y: 790
+      width: 111
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 655
+      y: 790
+      width: 111
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sign-red
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 505
+      width: 267
+      height: 266
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 505
+      width: 267
+      height: 266
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

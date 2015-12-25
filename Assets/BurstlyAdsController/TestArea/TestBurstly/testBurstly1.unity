@@ -1,0 +1,701 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+SceneSettings:
+  m_ObjectHideFlags: 0
+  m_PVSData: 
+  m_QueryMode: 1
+  m_PVSObjectsArray: []
+  m_PVSPortalsArray: []
+  m_OcclusionBakeSettings:
+    viewCellSize: 1
+    bakeMode: 2
+    memoryUsage: 10485760
+--- !u!104 &2
+RenderSettings:
+  m_Fog: 0
+  m_FogColor: {r: .5, g: .5, b: .5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: .00999999978
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientLight: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: .5
+  m_FlareStrength: 1
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 0}
+  m_ObjectHideFlags: 0
+--- !u!127 &3
+LevelGameManager:
+  m_ObjectHideFlags: 0
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  m_LightProbes: {fileID: 0}
+  m_Lightmaps: []
+  m_LightmapsMode: 1
+  m_BakedColorSpace: 0
+  m_UseDualLightmapsInForward: 0
+  m_LightmapEditorSettings:
+    m_Resolution: 50
+    m_LastUsedResolution: 0
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_BounceBoost: 1
+    m_BounceIntensity: 1
+    m_SkyLightColor: {r: .860000014, g: .930000007, b: 1, a: 1}
+    m_SkyLightIntensity: 0
+    m_Quality: 0
+    m_Bounces: 1
+    m_FinalGatherRays: 1000
+    m_FinalGatherContrastThreshold: .0500000007
+    m_FinalGatherGradientThreshold: 0
+    m_FinalGatherInterpolationPoints: 15
+    m_AOAmount: 0
+    m_AOMaxDistance: .100000001
+    m_AOContrast: 1
+    m_LODSurfaceMappingDistance: 1
+    m_Padding: 0
+    m_TextureCompression: 0
+    m_LockAtlas: 0
+--- !u!196 &5
+NavMeshSettings:
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    agentRadius: .5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: .400000006
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    accuratePlacement: 0
+    minRegionArea: 2
+    widthInaccuracy: 16.666666
+    heightInaccuracy: 10
+  m_NavMesh: {fileID: 0}
+--- !u!1 &20479212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 20479215}
+  - 114: {fileID: 20479214}
+  - 114: {fileID: 20479213}
+  m_Layer: 0
+  m_Name: iOS_HomePromoBanner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &20479213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 9c1898d93a66d4144abf32d1362b0b46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 20479212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7529715852b746fea80517291634328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetInterstitial: {fileID: 1531049134}
+--- !u!114 &20479214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: 9c1898d93a66d4144abf32d1362b0b46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 20479212}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba0c4f551363e4f30afe0a4a90a95fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 0
+  adParameters: 
+  adId: PromoBanner
+  adAppId: L5buKGGbrEaELkxr1tN5Uw
+  adZoneId: 0654126859107224035
+  simulateBannerInEditor: 1
+  supportedBannerSizes:
+  - {x: 320, y: 50}
+  - {x: 728, y: 90}
+  positionParams:
+  - deviceOrientation: 0
+    screenPosArea:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 95
+      height: 95
+    positionMode: 5
+  isAutoSizeBanner: 0
+--- !u!4 &20479215
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 20479212}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1531049135}
+  m_Father: {fileID: 349314532}
+--- !u!1 &43933246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 43933247}
+  - 114: {fileID: 43933248}
+  m_Layer: 0
+  m_Name: MobilityTest_iOS_Interstitial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &43933247
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 43933246}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 821930562}
+--- !u!114 &43933248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400004, guid: 9c1898d93a66d4144abf32d1362b0b46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 43933246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81c1b30004e54ebb9c2a284521a839b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 0
+  adParameters: 
+  adId: MobilityTestInterstitial
+  adAppId: rBbelDd_eU-yQ7AbbEfNOA
+  adZoneId: 0251162059050244172
+  simulateBannerInEditor: 1
+  autoShowOnStart: 0
+--- !u!1 &121664804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 121664805}
+  m_Layer: 0
+  m_Name: TestBurstly
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &121664805
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 121664804}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 349314532}
+  - {fileID: 329072940}
+  m_Father: {fileID: 0}
+--- !u!1 &329072935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 329072940}
+  - 20: {fileID: 329072939}
+  - 92: {fileID: 329072938}
+  - 124: {fileID: 329072937}
+  - 81: {fileID: 329072936}
+  - 114: {fileID: 329072941}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &329072936
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8100000, guid: 9c1898d93a66d4144abf32d1362b0b46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 329072935}
+  m_Enabled: 1
+--- !u!124 &329072937
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 12400000, guid: 9c1898d93a66d4144abf32d1362b0b46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 329072935}
+  m_Enabled: 1
+--- !u!92 &329072938
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9200000, guid: 9c1898d93a66d4144abf32d1362b0b46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 329072935}
+  m_Enabled: 1
+--- !u!20 &329072939
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2000000, guid: 9c1898d93a66d4144abf32d1362b0b46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 329072935}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: .300000012
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 100
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_HDR: 0
+--- !u!4 &329072940
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 329072935}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 121664805}
+--- !u!114 &329072941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400006, guid: 9c1898d93a66d4144abf32d1362b0b46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 329072935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9a1e03f2835f4366b963fa6822aa323, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  banners: {fileID: 349314531}
+--- !u!1 &349314531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 349314532}
+  m_Layer: 0
+  m_Name: BurstlyAdBanners
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &349314532
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 349314531}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 433859638}
+  - {fileID: 1038257491}
+  - {fileID: 821930562}
+  - {fileID: 1088581071}
+  - {fileID: 20479215}
+  m_Father: {fileID: 121664805}
+--- !u!1 &433859637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 433859638}
+  - 114: {fileID: 433859639}
+  m_Layer: 0
+  m_Name: iOS_HomeBanner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &433859638
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 433859637}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 349314532}
+--- !u!114 &433859639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400008, guid: 9c1898d93a66d4144abf32d1362b0b46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 433859637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba0c4f551363e4f30afe0a4a90a95fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 0
+  adParameters: 
+  adId: HomeBanner
+  adAppId: L5buKGGbrEaELkxr1tN5Uw
+  adZoneId: 0254126859107224035
+  simulateBannerInEditor: 1
+  supportedBannerSizes:
+  - {x: 320, y: 50}
+  - {x: 728, y: 90}
+  positionParams:
+  - deviceOrientation: 1
+    screenPosArea:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    positionMode: 3
+  - deviceOrientation: 2
+    screenPosArea:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    positionMode: 4
+  isAutoSizeBanner: 1
+--- !u!1 &821930561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 821930562}
+  - 114: {fileID: 821930564}
+  - 114: {fileID: 821930563}
+  m_Layer: 0
+  m_Name: MobilityTest_iOS_PromoBanner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &821930562
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 821930561}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 43933247}
+  m_Father: {fileID: 349314532}
+--- !u!114 &821930563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400010, guid: 9c1898d93a66d4144abf32d1362b0b46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 821930561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7529715852b746fea80517291634328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetInterstitial: {fileID: 43933248}
+--- !u!114 &821930564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400012, guid: 9c1898d93a66d4144abf32d1362b0b46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 821930561}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba0c4f551363e4f30afe0a4a90a95fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 0
+  adParameters: 
+  adId: MobilityTestPromoBanner
+  adAppId: rBbelDd_eU-yQ7AbbEfNOA
+  adZoneId: 0750162959050244172
+  simulateBannerInEditor: 1
+  supportedBannerSizes:
+  - {x: 320, y: 50}
+  - {x: 728, y: 90}
+  positionParams:
+  - deviceOrientation: 0
+    screenPosArea:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 95
+      height: 95
+    positionMode: 5
+  isAutoSizeBanner: 0
+--- !u!1 &1038257490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100014, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1038257491}
+  - 114: {fileID: 1038257492}
+  m_Layer: 0
+  m_Name: MobilityTest_iOS_HomeBanner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1038257491
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400014, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 1038257490}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 349314532}
+--- !u!114 &1038257492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400014, guid: 9c1898d93a66d4144abf32d1362b0b46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 1038257490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba0c4f551363e4f30afe0a4a90a95fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 0
+  adParameters: 
+  adId: MobilityTestHomeBanner
+  adAppId: rBbelDd_eU-yQ7AbbEfNOA
+  adZoneId: 0251162659050224172
+  simulateBannerInEditor: 1
+  supportedBannerSizes:
+  - {x: 320, y: 50}
+  - {x: 728, y: 90}
+  positionParams:
+  - deviceOrientation: 1
+    screenPosArea:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    positionMode: 3
+  - deviceOrientation: 2
+    screenPosArea:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    positionMode: 4
+  isAutoSizeBanner: 1
+--- !u!1 &1088581070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100016, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1088581071}
+  - 114: {fileID: 1088581072}
+  m_Layer: 0
+  m_Name: MobilityTest_iOS_Interstitial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1088581071
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400016, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 1088581070}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 349314532}
+--- !u!114 &1088581072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400016, guid: 9c1898d93a66d4144abf32d1362b0b46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 1088581070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81c1b30004e54ebb9c2a284521a839b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 0
+  adParameters: 
+  adId: MobilityTestInterstitial
+  adAppId: rBbelDd_eU-yQ7AbbEfNOA
+  adZoneId: 0950162959050244172
+  simulateBannerInEditor: 1
+  autoShowOnStart: 1
+--- !u!1001 &1266170389
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+  m_RootGameObject: {fileID: 121664804}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &1531049133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100018, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1531049135}
+  - 114: {fileID: 1531049134}
+  - 114: {fileID: 1531049136}
+  m_Layer: 0
+  m_Name: iOS_PreGameInterstitial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1531049134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400018, guid: 9c1898d93a66d4144abf32d1362b0b46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 1531049133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81c1b30004e54ebb9c2a284521a839b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 0
+  adParameters: 
+  adId: PreGameInterstitial
+  adAppId: L5buKGGbrEaELkxr1tN5Uw
+  adZoneId: 0454126859107224035
+  simulateBannerInEditor: 1
+  autoShowOnStart: 0
+--- !u!4 &1531049135
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400018, guid: 9c1898d93a66d4144abf32d1362b0b46, type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 1531049133}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 20479215}
+--- !u!114 &1531049136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400020, guid: 9c1898d93a66d4144abf32d1362b0b46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1266170389}
+  m_GameObject: {fileID: 1531049133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d92462cd32e4b11afd28c9e389846f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

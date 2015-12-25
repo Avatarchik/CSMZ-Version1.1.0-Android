@@ -1,0 +1,705 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: GameAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 0d9f20ad818404266b34371b2dc6cb30, type: 2}
+  sprites:
+  - name: icon_iceaxe
+    outer:
+      serializedVersion: 2
+      x: 376
+      y: 7
+      width: 75
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 376
+      y: 7
+      width: 75
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_bomb
+    outer:
+      serializedVersion: 2
+      x: 376
+      y: 74
+      width: 75
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 376
+      y: 74
+      width: 75
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_backpack
+    outer:
+      serializedVersion: 2
+      x: 376
+      y: 141
+      width: 75
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 376
+      y: 141
+      width: 75
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_shovel
+    outer:
+      serializedVersion: 2
+      x: 930
+      y: 670
+      width: 75
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 930
+      y: 670
+      width: 75
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gui_moves
+    outer:
+      serializedVersion: 2
+      x: 170
+      y: 550
+      width: 205
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 170
+      y: 550
+      width: 205
+      height: 106
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gui_button_down_02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 54
+      width: 115
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 54
+      width: 115
+      height: 109
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gui_button_down_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 164
+      width: 115
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 164
+      width: 115
+      height: 109
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gui_progressbar_02
+    outer:
+      serializedVersion: 2
+      x: 523
+      y: 686
+      width: 406
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 523
+      y: 686
+      width: 406
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gui_progressbar_01
+    outer:
+      serializedVersion: 2
+      x: 376
+      y: 606
+      width: 406
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 376
+      y: 606
+      width: 406
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gui_score
+    outer:
+      serializedVersion: 2
+      x: 764
+      y: 748
+      width: 210
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 764
+      y: 748
+      width: 210
+      height: 106
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gui_powerup_icon3
+    outer:
+      serializedVersion: 2
+      x: 376
+      y: 404
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 376
+      y: 404
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gui_powerup_glow
+    outer:
+      serializedVersion: 2
+      x: 376
+      y: 208
+      width: 94
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 376
+      y: 208
+      width: 94
+      height: 94
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gui_powerup_icon1
+    outer:
+      serializedVersion: 2
+      x: 376
+      y: 505
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 376
+      y: 505
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gui_powerup_icon2
+    outer:
+      serializedVersion: 2
+      x: 271
+      y: 45
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 271
+      y: 45
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gui_powerup_icon5
+    outer:
+      serializedVersion: 2
+      x: 170
+      y: 45
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 170
+      y: 45
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gui_powerup_icon4
+    outer:
+      serializedVersion: 2
+      x: 271
+      y: 146
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 271
+      y: 146
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gui_powerup_bgon
+    outer:
+      serializedVersion: 2
+      x: 170
+      y: 146
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 170
+      y: 146
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gui_powerup_icon6
+    outer:
+      serializedVersion: 2
+      x: 271
+      y: 247
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 271
+      y: 247
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gui_powerup_bgsel
+    outer:
+      serializedVersion: 2
+      x: 170
+      y: 247
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 170
+      y: 247
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gui_powers
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 705
+      width: 169
+      height: 319
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 705
+      width: 169
+      height: 319
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: facebook_link
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 274
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 274
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gui_powerup_icon8
+    outer:
+      serializedVersion: 2
+      x: 271
+      y: 348
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 271
+      y: 348
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gui_powerup_icon7
+    outer:
+      serializedVersion: 2
+      x: 170
+      y: 348
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 170
+      y: 348
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gui_powers_up
+    outer:
+      serializedVersion: 2
+      x: 170
+      y: 855
+      width: 290
+      height: 169
+    inner:
+      serializedVersion: 2
+      x: 170
+      y: 855
+      width: 290
+      height: 169
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gui_powerup_icon9
+    outer:
+      serializedVersion: 2
+      x: 271
+      y: 449
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 271
+      y: 449
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_button_buy2
+    outer:
+      serializedVersion: 2
+      x: 461
+      y: 907
+      width: 296
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 461
+      y: 907
+      width: 296
+      height: 117
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_button_buy2_down
+    outer:
+      serializedVersion: 2
+      x: 170
+      y: 737
+      width: 296
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 170
+      y: 737
+      width: 296
+      height: 117
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_button_buy2_light
+    outer:
+      serializedVersion: 2
+      x: 467
+      y: 737
+      width: 296
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 467
+      y: 737
+      width: 296
+      height: 117
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_button_buy1_down
+    outer:
+      serializedVersion: 2
+      x: 170
+      y: 657
+      width: 352
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 251
+      y: 657
+      width: 108
+      height: 79
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gui_powerup_icon10
+    outer:
+      serializedVersion: 2
+      x: 170
+      y: 449
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 170
+      y: 449
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_lives_icon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 554
+      width: 150
+      height: 150
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 554
+      width: 150
+      height: 150
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_livesbroken_icon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 403
+      width: 150
+      height: 150
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 403
+      width: 150
+      height: 150
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coin_gold
+    outer:
+      serializedVersion: 2
+      x: 376
+      y: 303
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 376
+      y: 303
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: age_button_01
+    outer:
+      serializedVersion: 2
+      x: 758
+      y: 907
+      width: 256
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 758
+      y: 907
+      width: 256
+      height: 117
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: priceTag_02
+    outer:
+      serializedVersion: 2
+      x: 477
+      y: 529
+      width: 108
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 518
+      y: 529
+      width: 29
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: priceTag_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 3
+      width: 108
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 31
+      y: 3
+      width: 45
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

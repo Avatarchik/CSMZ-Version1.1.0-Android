@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dialog
+    childContent="Layout"
+    content="FailResultDialog"
+    height="wrap_content"
+    width="450" >
+
+    <Item
+        background="mmiap/01/bg.png"
+        content="ResultLayout"
+        height="wrap_content"
+        orientation="vertical"
+        paddingBottom="0"
+        paddingLeft="10"
+        paddingRight="10"
+        paddingTop="30"
+        stytle="LinearLayout"
+        width="wrap_content" >
+
+        <Item
+            content="Result"
+            gravity="left"
+            height="wrap_content"
+            paddingLeft="10"
+            paddingRight="10"
+            stytle="TextView"
+            text="支付失败！"
+            textcolor="#ffec980f"
+            textsize="18"
+            width="wrap_content" >
+
+            <Item
+                content="ResultMSG"
+                stytle="TextViewChild"
+                text="尊敬的用户，网络连接超时，请重新购买 ，返回码：115" >
+            </Item>
+        </Item>
+
+        <Item
+            content="MainView"
+            height="wrap_content"
+            orientation="horizontal"
+            paddingBottom="20"
+            paddingTop="60"
+            stytle="LinearLayout"
+            width="fill_parent" >
+
+            <Item
+                background="mmiap/01/button1_confirm.9.png"
+                content="confirmButton"
+                height="70"
+                margingRight="10"
+                paddingBottom="10"
+                paddingTop="10"
+                pressedBG="mmiap/01/button1_confirm_press.9.png"
+                stytle="Button"
+                text="确  认"
+                textsize="20"
+                width="fill_parent" >
+            </Item>
+        </Item>
+    </Item>
+
+</Dialog>

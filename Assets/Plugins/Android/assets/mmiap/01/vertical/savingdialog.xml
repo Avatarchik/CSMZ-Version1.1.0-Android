@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dialog
+    childContent="Layout"
+    content="PurchaseDialog"
+    height="wrap_content"
+    width="450" >
+
+    <Item
+        background="mmiap/01/bg.png"
+        content="PurchaseDialog"
+        height="wrap_content"
+        orientation="vertical"
+        paddingBottom="10"
+        paddingLeft="10"
+        paddingRight="10"
+        paddingTop="30"
+        stytle="LinearLayout"
+        width="wrap_content" >
+
+        <Item
+            content="ProductInfo"
+            height="wrap_content"
+            paddingLeft="10"
+            paddingRight="10"
+            gravity="left"
+            textcolor="#ffec980f"
+            stytle="TextView"
+            text="若不进行付费，您将无法获得更多的应用体验，是否确认？"
+            textsize="18"
+            width="wrap_content" >
+        </Item>
+
+        <Item
+            content="MainView"
+            height="wrap_content"
+            orientation="horizontal"
+            paddingBottom="10"
+            paddingTop="40"
+            stytle="LinearLayout"
+            width="fill_parent" >
+
+            <Item
+                background="mmiap/01/btn_blue.9.png"
+                content="backbutton"
+                height="70"
+                margingRight="10"
+                paddingBottom="10"
+                paddingTop="10"
+                pressedBG="mmiap/01/btn_blue_click.9.png"
+                stytle="Button"
+                text="返  回"
+                textsize="20"
+                weight="1"
+                width="wrap_content" >
+            </Item>
+
+            <Item
+                background="mmiap/01/btn_gray.9.png"
+                content="confirmButton"
+                height="70"
+                margingLeft="10"
+                paddingBottom="10"
+                paddingTop="10"
+                pressedBG="mmiap/01/btn_gray_click.9.png"
+                stytle="Button"
+                text="确  认"
+                textsize="20"
+                weight="1"
+                width="wrap_content" >
+            </Item>
+        </Item>
+    </Item>
+</Dialog>

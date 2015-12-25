@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400006}
+  - 114: {fileID: 11400004}
+  - 114: {fileID: 11400002}
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400012}
+  m_Layer: 0
+  m_Name: Blackboard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.179758072, y: -.793457508, z: .788773537}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07518b6354c3e4eafabe7a24a361010d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2963993d655445cbba1b30adddb000b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iosConfig:
+    bundleId: com.disney.maleficent
+    key: DDE32EE9-B139-459B-91B6-49B23D5B789D
+    secret: 03657878-5577-4DD9-9CEB-BF80AD56FDC3
+  googlePlayConfig:
+    bundleId: com.disney.maleficent_goo
+    key: 5BB545E4-9712-4A43-8985-31F0068DF3A5
+    secret: 453BB74F-227C-4E1A-A7C8-BCA94E105E28
+  amazonConfig:
+    bundleId: com.disney.maleficent_ama
+    key: A65876FB-0958-4581-9005-07EAE7061054
+    secret: 1BAD80F6-D4FD-474C-8B10-C9BCAE44D796
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bfafd7a1bdfc4c68b942713cdb207a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iosConfig:
+    pubId: P2aGXDX9cEKVt2MsQEWwTg
+    pregameInterstitialZoneId: 0950164859113244507
+    postgameInterstitialZondeId: 0050164959113244507
+    bannerZoneId: 0850164859113244507
+    xpromoTileZoneId: 0150164959113244507
+  googlePlayConfig:
+    pubId: xRawJRpNGkq043fJaj5N1w
+    pregameInterstitialZoneId: 0450938959078244233
+    postgameInterstitialZondeId: 0550938959078244233
+    bannerZoneId: 0250938959078244233
+    xpromoTileZoneId: 0350938959078244233
+  amazonConfig:
+    pubId: GXf5u4ibrEiGo92z0mYYJQ
+    pregameInterstitialZoneId: 0250945859127244801
+    postgameInterstitialZondeId: 0350945859127244801
+    bannerZoneId: 0050945859127244801
+    xpromoTileZoneId: 0150945859127244801
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db92bde3b8bb08a4994e085841bdccec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 3
+  level: 70
+  levelBg: 6
+  unlockAllItems: 1
+--- !u!114 &11400012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772113c17bfef4ef3940e913a6802170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateInterval: .5
+  x_location: 73
+  y_location: 51
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

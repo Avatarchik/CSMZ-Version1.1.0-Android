@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dialog
+    childContent="Layout"
+    content="splashDialog"
+    height="fill_parent"
+    width="fill_parent" >
+
+    <Item
+        background=""
+        content=""
+        height="fill_parent"
+        orientation="vertical"
+        stytle="LinearLayout"
+        width="fill_parent" >
+            <Item
+                background="mmiap/splash/splash_h.jpg"
+                content="splashpic"
+                gravity="align_parent_right|r_center_vertical"
+                height="fill_parent"
+                stytle="ImageView"
+                width="fill_parent" >
+            </Item>
+    </Item>
+
+</Dialog>

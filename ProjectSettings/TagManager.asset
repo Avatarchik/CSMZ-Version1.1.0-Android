@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  tags:
+  - DebugPlayButtonTag
+  - ManaPowerBall
+  - 
+  - SelectableItem
+  - 
+  - MAPBOOK_COLL_TAG
+  - 
+  Builtin Layer 0: Default
+  Builtin Layer 1: TransparentFX
+  Builtin Layer 2: Ignore Raycast
+  Builtin Layer 3: 
+  Builtin Layer 4: Water
+  Builtin Layer 5: 
+  Builtin Layer 6: 
+  Builtin Layer 7: 
+  User Layer 8: GUI
+  User Layer 9: RenderBuffer
+  User Layer 10: Ice
+  User Layer 11: BoardTile
+  User Layer 12: Background
+  User Layer 13: Character
+  User Layer 14: GameGUI
+  User Layer 15: ScoreGUI
+  User Layer 16: TileSensor
+  User Layer 17: BoardBackground
+  User Layer 18: Effects
+  User Layer 19: BoardPiece
+  User Layer 20: DropTile
+  User Layer 21: LoadingGUI
+  User Layer 22: BoardBelow
+  User Layer 23: InfoCamera
+  User Layer 24: StoreCamera
+  User Layer 25: LivesCamera
+  User Layer 26: Wolf
+  User Layer 27: ShopCamera
+  User Layer 28: FirstChargeCamera
+  User Layer 29: ChangeCamera
+  User Layer 30: SignCamera
+  User Layer 31: GiftUI
+  m_SortingLayers:
+  - name: Default
+    userID: 0
+    uniqueID: 0
+    locked: 0

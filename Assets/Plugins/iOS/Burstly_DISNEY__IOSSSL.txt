@@ -1,0 +1,20 @@
+author:=Christopher Chung
+email:=cchung@burstly.com
+timestamp:=20140218184736
+buildInOne:=true
+isSeparate:=false
+version:=release 1.41.0.50740
+
+local_include:=Burstly_millennial_Adaptor BurstlyCore Burstly_inmobi_Adaptor InMobi/3.7.0 BurstlyInstalledAppsTracker BurstlyJSONParser AdMob/6.4.1 Millennial/5.1.2 BurstlyAdNetwork Burstly_admob_Adaptor BurstlyCurrency BurstlyConvenienceLayer BurstlyCommon Burstly_iad_Adaptor Burstly_burstly_Adaptor BurstlyDownloadTracker
+
+arch:=armv7  armv7s  i386
+minSdkVersion:=4.0 
+type:=release
+thumb:=thumb
+compiler:=llvm
+adHost:=https://mercury.appads.com
+adHostMask:=https://mercury%d.appads.com
+adHostNumber:=3
+currencyHost:=https://lv.appads.com
+currencyHostMask:=https://lv%d.appads.com
+currencyHostNumber:=3

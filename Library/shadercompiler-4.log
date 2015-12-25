@@ -1,0 +1,73 @@
+Base path: C:/Program Files (x86)/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-4-2008
+Cmd: getPlatforms
+Cmd: compileSnippet
+  api=9 type=0 insize=1325 outsize=1040 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=1668 outsize=2152 kw=LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=1215 outsize=1002 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=4900 outsize=3265 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=4900 outsize=4351 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=4900 outsize=3855 kw=DIRECTIONAL SHADOWS_SCREEN SHADOWS_NATIVE LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=2844 outsize=2096 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=2844 outsize=2849 kw=SPOT ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=1634 outsize=2054 kw=LIGHTMAP_ON ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=1634 outsize=7 kw=LIGHTMAP_ON ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=1668 outsize=6 kw=LIGHTMAP_ON ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=715 outsize=7 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=1215 outsize=7 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=1203 outsize=1140 kw= ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=1203 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=4900 outsize=1912 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=4900 outsize=6 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=4900 outsize=6 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=2844 outsize=6 kw=POINT ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=2844 outsize=6 kw=POINT_COOKIE ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=1260 outsize=1014 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=1260 outsize=1339 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=1260 outsize=7 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=1282 outsize=1276 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=1222 outsize=7 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=1218 outsize=7 kw= ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=1277 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=1333 outsize=7 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=1287 outsize=1406 kw=LIGHTMAP_ON ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=1287 outsize=6 kw=LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=1051 outsize=1040 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=1041 outsize=928 kw= ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=1041 outsize=6 kw= ok=1
+Unhandled exception: Readfile from pipe failed. GLE=管道已结束。
+
+
+Quitting shader compiler process

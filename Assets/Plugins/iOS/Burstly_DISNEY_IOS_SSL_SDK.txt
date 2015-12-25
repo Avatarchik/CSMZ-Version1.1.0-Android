@@ -1,0 +1,17 @@
+author:=Logan Lorenz
+email:=onboard@burstly.com
+timestamp:=2013042514952
+buildInOne:=true
+
+local_include:=Burstly_millennial_Adaptor BurstlyCore Burstly_inmobi_Adaptor Millennial/5.0.0 InMobi/3.7.0 BurstlyInstalledAppsTracker BurstlyJSONParser AdMob/6.4.1 BurstlyAdNetwork Burstly_admob_Adaptor BurstlyCurrency BurstlyConvenienceLayer BurstlyCommon Burstly_iad_Adaptor Burstly_burstly_Adaptor BurstlyDownloadTracker
+
+arch:=armv7  armv7s  i386 
+type:=release
+thumb:=thumb
+compiler:=llvm
+adHost:=https://mercury.appads.com
+adHostMask:=https://mercury%d.appads.com
+adHostNumber:=3
+currencyHost:=https://lv.appads.com
+currencyHostMask:=https://lv%d.appads.com
+currencyHostNumber:=3
